@@ -1,4 +1,4 @@
-package com.example.stepcounterapp
+package com.stepcounter.application
 
 import org.junit.Test
 

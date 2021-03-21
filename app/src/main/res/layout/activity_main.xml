@@ -12,54 +12,54 @@
         android:alpha=".5"
         android:scaleType="centerCrop"
         android:src="@drawable/running" />
-<LinearLayout
-    android:layout_centerInParent="true"
-    android:id="@+id/llMusic"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <ImageView
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:src="@drawable/ic_disc"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-     <TextView
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:text="mai hun na.mp3"
-         android:fontFamily="@font/valentime"
-         android:textSize="40sp"
-         android:textColor="@android:color/white"
-         android:layout_gravity="center"
-         />
     <LinearLayout
-        android:padding="20dp"
-        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:id="@+id/llMusic"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content">
         <ImageView
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:src="@drawable/ic_baseline_fast_rewind_24"
+            android:src="@drawable/ic_disc"
+            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-        <ImageView
-            android:id="@+id/tick_cross"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="mai hun na.mp3"
+            android:fontFamily="@font/valentime"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
             android:layout_gravity="center"
-            android:src="@drawable/ic_baseline_play_arrow_24" />
-        <ImageView
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:src="@drawable/ic_baseline_fast_forward_24"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            />
+        <LinearLayout
+            android:padding="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/ic_baseline_fast_rewind_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/tick_cross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_play_arrow_24" />
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/ic_baseline_fast_forward_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
     </LinearLayout>
-</LinearLayout>
 
     <LinearLayout
         android:layout_below="@id/llMusic"

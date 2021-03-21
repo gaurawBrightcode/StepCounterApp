@@ -1,4 +1,4 @@
-package com.example.stepcounterapp
+package com.stepcounter.application
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -17,13 +17,10 @@ import android.util.Log
 import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.Toast
-import kotlinx.android.synthetic.main.activity_main.*
 import android.graphics.drawable.AnimatedVectorDrawable
 
 import android.widget.ImageView
-
-
-
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), SensorEventListener {
     private val tick = true
